@@ -1,9 +1,4 @@
 @charset "UTF-8";
-
-body {
-  font-family: "Noto sans JP", sans-serif;
-}
-
 .u-desktop {
   display: none;
 }
@@ -859,11 +854,6 @@ section {
   display: block;
 }
 
-body {
-  color: #000;
-  font-family: "Noto Sans JP", sans-serif;
-}
-
 .inner {
   position: relative;
   margin: 0 auto;
@@ -916,7 +906,7 @@ body {
   background-color: #fff;
   text-align: left;
   width: 100%;
-  font-family: 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', sans-serif !important;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
   line-height: 1.8;
 }
@@ -2064,11 +2054,7 @@ svg {
 
 
 
-@charset "UTF-8";
 
-body {
-  font-family: "Noto sans JP", sans-serif;
-}
 
 @media screen and (min-width: 768px) {
   .u-mobile {
