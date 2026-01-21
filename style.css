@@ -791,42 +791,6 @@ html:has(#hamburger-menu-button:checked) {
   font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 *,
 *::before,
 *::after {
@@ -923,8 +887,6 @@ p {
     font-size: 18px;
   }
 }
-
-
 
 section h2 {
   font-size: 2.4rem;
@@ -1359,66 +1321,6 @@ input[type="email"] {
 input[type="text"] {
   padding: 0.9375rem 1.25rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .faq {
   scroll-behavior: smooth;
@@ -1897,41 +1799,6 @@ svg {
   max-width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 768px) {
   .company {
     padding: 5rem 0 6.25rem;
@@ -2012,50 +1879,6 @@ svg {
   margin-top: 10px;
   margin-top: 0.625rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 768px) {
   .u-mobile {
@@ -2158,8 +1981,6 @@ html:has(#hamburger-menu-button:checked) {
     margin-bottom: 1.5rem;
   }
 }
-
-
 
 @media screen and (min-width: 768px) {
   .title__main span {
@@ -2743,60 +2564,6 @@ td.image {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1024px) {
   .site_header:has(.js-menu-open) {
     background-color: rgba(0, 0, 0, 0.5);
@@ -2982,28 +2749,6 @@ img {
   width: 100%;
   height: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 768px) {
   .support {
@@ -3197,35 +2942,6 @@ section .support__title h2:after {
   margin-top: 18px;
   margin-bottom: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 section {
   display: block
@@ -3627,20 +3343,6 @@ p.top-service_detail {
   -webkit-transform: translateY(5%);
   transform: translateY(5%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .header__pc-nav ul {
   display: -webkit-box;
@@ -4386,23 +4088,6 @@ img {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .height--3 th {
   border-top-left-radius: 0.625rem !important;
 }
@@ -4430,16 +4115,6 @@ img {
 .cta_frame {
   padding: 0 0 5rem 0;
 }
-
-
-
-
-
-
-
-
-
-
 
 .reason {
   padding: 5rem 0 5rem;
@@ -4553,23 +4228,6 @@ img {
   background-color: #FBFCFC;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1024px) {
   #example .txt_box {
     width: 100%;
@@ -4584,14 +4242,6 @@ img {
   }
 }
 
-
-
-
-
-
-/* =========================
-  PLAN SECTION (全体)
-========================= */
 .plan {
   padding: 60px 0 70px;
   background: #FBFCFC;
@@ -4802,19 +4452,6 @@ img {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .plan__included {
   justify-content: center;
   padding: 0 0px 20px;
@@ -4868,30 +4505,6 @@ img {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* オレンジの斜線 */
 .plan-price__old::after {
   content: "";
   position: absolute;
@@ -4903,8 +4516,6 @@ img {
   transform: rotate(0deg);
   border-radius: 999px;
 }
-
-
 
 .plan-price__arrow {
   position: relative;
@@ -4940,30 +4551,12 @@ img {
   transform: translateY(-50%) rotate(45deg);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .plan-price__new {
   font-size: 44px;
   font-weight: 800;
   color: #1F7F78;
   line-height: 1.4;
 }
-
-
-
-
-
 
 .plan__note {
   margin-top: 20px;
@@ -4973,20 +4566,6 @@ img {
   text-align: left;
   max-width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .red {
   background-color: #FF3804;
@@ -5081,14 +4660,6 @@ img {
   width: 100%;
 }
 
-
-
-
-
-
-
-
-
 .story__title {
   margin-bottom: 30px;
   margin-top: 0rem;
@@ -5104,21 +4675,6 @@ img {
   margin-bottom: 30px;
   margin-top: 0rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .plan-fee {
   text-align: center;
@@ -5172,18 +4728,6 @@ img {
   line-height: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 768px) {
   .plan-fee__name {
     font-size: 18px;
@@ -5206,17 +4750,6 @@ img {
     margin: 10px 0 0px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .premium-lead {
   text-align: center;
@@ -5258,10 +4791,6 @@ img {
   background: url(img/premium_check.png) no-repeat center / contain;
 }
 
-
-
-
-
 @media (max-width: 768px) {
   .advance-lead__box {
     font-size: 15px;
@@ -5293,17 +4822,6 @@ img {
   align-items: center;
   gap: 45px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .monthly-box {
   max-width: 100%;
@@ -5357,32 +4875,6 @@ img {
   margin: 30px 0 30px 0;
   font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .cta-grad {
   padding: 5rem 0;
@@ -5511,23 +5003,6 @@ img {
     text-align: left;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .reason__slider--sp,
 .reason__hint {
@@ -5922,26 +5397,6 @@ img {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =========================
-   料金表
-========================= */
 .priceMatrix {
   padding: 5rem 0 5rem;
 }
@@ -5997,7 +5452,7 @@ img {
 @media (max-width: 900px) {
   .priceMatrix__scroll {
     overflow: auto;
-    max-height: 80vh;
+    max-height: 70vh;
     -webkit-overflow-scrolling: touch;
   }
 }
@@ -6312,17 +5767,6 @@ img {
   background: #ffffff00;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 900px) {
   .priceMatrix__scroll {
     padding-left: 0px;
@@ -6338,15 +5782,6 @@ img {
   }
 
 }
-
-
-
-
-
-
-
-
-
 
 .priceBox__small {
   font-size: 14px;
@@ -6410,9 +5845,6 @@ img {
   }
 }
 
-
-
-
 @media screen and (max-width: 768px) {
   .sub_txt {
     text-align: left;
@@ -6458,9 +5890,6 @@ img {
   }
 
 }
-
-
-
 
 @media screen and (max-width: 550px) {
   .faq__heading {
