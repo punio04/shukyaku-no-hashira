@@ -6240,4 +6240,121 @@ img {
     font-weight: 300;
     line-height: 1.7;
   }
+
+  .cta-grad__point {
+    padding: 0 0 0 18px;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .cta-grad__check {
+    width: 25px;
+    height: 25px;
+    display: block;
+  }
+
+  .cta-grad__point {
+    height: 60px;
+    font-size: 17px;
+  }
+
+  .cta-grad__point {
+    padding: 0 0 0 12px;
+  }
+
+  .blue_font {
+    color: #3932B5;
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0px 0px;
+  }
+
+  .premium_num {
+    font-size: 14px;
+  }
+
+  .plan-fee__label {
+    font-size: 14px;
+  }
+
+  .plan-fee__unit {
+    font-size: 17px;
+  }
+
+  .plan-fee__name {
+    font-size: 17px;
+  }
+
+  .plan-price__new {
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 1.4;
+  }
+
+  .plan-price__label {
+    font-size: 17px;
+  }
+
+  .plan-price__top {
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 0px;
+    color: #333;
+  }
+
+  .plan-price__old::after {
+    top: 50%;
+  }
+
+  .plan-price__old::after {
+    content: "";
+    position: absolute;
+    left: -2px;
+    right: -2px;
+    top: 55%;
+    height: 3px;
+    background: #d46a2b;
+    transform: rotate(0deg);
+    border-radius: 999px;
+  }
+
+  .plan-fee__num {
+    font-size: 27px;
+  }
+
+  .plan-price__arrow {
+    position: relative;
+    display: inline-block;
+    width: 22px;
+    height: 0px;
+    margin: 0 10px;
+    font-size: 0;
+    padding-top: 24px;
+  }
+
+  .plan-price__arrow::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 3px;
+    background: #646464;
+    transform: translateY(-50%);
+    border-radius: 999px;
+  }
+
+  .plan-price__arrow::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid #646464;
+    border-right: 3px solid #646464;
+    transform: translateY(-50%) rotate(45deg);
+  }
 }
