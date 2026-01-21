@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .u-desktop {
   display: none;
 }
@@ -3996,7 +3997,7 @@ img {
   }
 
   .small-font {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .button--with-person a::after {
@@ -4610,7 +4611,7 @@ img {
   font-size: clamp(18px, 2.0vw, 28px);
   color: #0f6a5e;
   padding-bottom: 8px;
-  border-bottom: 4px solid #0f6a5e;
+  border-bottom: 3px solid #0f6a5e;
 }
 
 /* =========================
@@ -4993,7 +4994,7 @@ img {
 
 .red_title {
   color: #FF3804;
-  border-bottom: 4px solid #FF3804;
+  border-bottom: 3px solid #FF3804;
 }
 
 .plan_red {
@@ -5045,12 +5046,12 @@ img {
 
 .blue_title {
   color: #3932B5;
-  border-bottom: 4px solid #3932B5;
+  border-bottom: 3px solid #3932B5;
 }
 
 .orange_title {
   color: #DB6900;
-  border-bottom: 4px solid #DB6900;
+  border-bottom: 3px solid #DB6900;
 }
 
 .blue {
@@ -5996,7 +5997,7 @@ img {
 @media (max-width: 900px) {
   .priceMatrix__scroll {
     overflow: auto;
-    max-height: 90vh;
+    max-height: 80vh;
     -webkit-overflow-scrolling: touch;
   }
 }
@@ -6536,7 +6537,7 @@ img {
   }
 
   .small-font {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .button a {
@@ -6550,9 +6551,9 @@ img {
     background-color: transparent;
     top: auto;
     bottom: 12px;
-    right: 0.5rem;
-    width: 1.7rem;
-    height: 1.7rem;
+    right: 0.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
     clip-path: initial;
     transform: translate(0, 0);
     background-image: url(./img/arrow.png);
@@ -6590,7 +6591,7 @@ img {
   }
 
   .title__sub {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .page-top .online-counceling__points {
@@ -6698,4 +6699,116 @@ img {
     height: auto;
   }
 
+  .cta-grad__desc {
+    font-size: 1rem;
+  }
+
+  .cta-grad__note {
+    font-size: 1rem;
+  }
+
+  .cta-grad__lead {
+    font-size: 1rem;
+  }
+
+  #introduction p {
+    font-size: 1rem;
+  }
+
+  .monthly-box__price {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .monthly-box__text {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+
+  .plan-card__head {
+    font-size: 18px;
+  }
+
+  .premium-lead__box {
+    font-size: 18px;
+    padding: 10px 18px;
+  }
+
+  .advance-lead__box {
+    font-size: 18px;
+    padding: 10px 18px;
+  }
+
+  .check-list span {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  .check-icon {
+    width: 18px;
+    height: auto;
+    margin-top: 3px;
+  }
+
+  #example p {
+    font-weight: bold;
+    margin-bottom: 1.3rem;
+    font-size: 1rem;
+  }
+
+  .flow_underfont p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+  }
+
+  .bigfont {
+    font-size: 1.5rem;
+  }
+
+  .reason__slide {
+    scroll-snap-align: start;
+    width: 570px;
+    max-width: none;
+    padding: 0;
+  }
+
+  .reason p {
+    font-weight: 600;
+    margin: 0px 0 30px 0;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  p.top-service_detail {
+    padding-top: 12px;
+    color: #333;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+
+  .support__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 261px;
+    width: 13.3125rem;
+  }
+
+  .sc_feature .sc_inner .feature_box .txt_box p {
+    color: #333;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.7;
+  }
 }
